@@ -1,0 +1,52 @@
+
+1)
+
+//C hello world example
+#include <stdio.h>
+ 
+int main()
+{
+  printf("Hello world\n");
+  return 0;
+}
+
+---------------------------------------------
+
+Hello world program in c
+
+We may store "hello world" in a character array as a string constant and then print it.
+Ads by Catered to You
+Ad Options
+
+#include <stdio.h>
+ 
+int main()
+{
+  char string[] = "Hello World";
+ 
+  printf("%s\n", string);
+ 
+  return 0;
+}
+
+Don't worry if you didn't understand above code as you may not be familiar with arrays yet.
+
+-------------------------------------------------------------------------------------------
+Printing hello world indefinitely
+
+Using loop we can print "Hello World" a desired number of time or indefinitely.
+
+#include <stdio.h>
+#define TRUE 1
+ 
+int main()
+{
+  while (TRUE)
+  {
+    printf("Hello World\n");
+  }
+ 
+  return 0;
+}
+
+While loop will execute forever until it is terminated, to terminate press (Ctrl + C) in windows operating system.
